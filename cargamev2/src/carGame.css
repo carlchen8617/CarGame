@@ -1,0 +1,92 @@
+#fancytext {
+    -fx-font: 20px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, yellow 0%, red 50%);
+    -fx-stroke: yellow;
+    -fx-stroke-width: 1;
+}
+
+#scenetitleAdmin {
+    -fx-font: 70px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, yellow 0%, red 50%);
+    -fx-stroke: green;
+    -fx-stroke-width: 4;
+    -fx-stroke-dash-array: 12 2 4 2;
+
+}
+
+#welcome {
+    -fx-font: 80px "Brush Script MT", cursive;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, yellow 0%, red 50%);
+    -fx-stroke: red;
+    -fx-stroke-width: 1;
+    -fx-rotate:-10;
+}
+
+#userName {
+    -fx-font: 20px Tahoma;
+  
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    
+}
+
+#userTextField {
+   
+}
+
+#Password{
+    -fx-font: 20px Tahoma;
+  
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}   
+
+#chose {
+	 -fx-font: 20px Tahoma;
+  
+    -fx-stroke: blue;
+    -fx-stroke-width: 1;
+     -fx-text-fill: blue;
+}  
+
+#choseS {
+	 -fx-font: 20px Tahoma;
+  
+    -fx-stroke: blue;
+    -fx-stroke-width: 1;
+     -fx-text-fill: blue;
+    
+}  
+
+#choseC {
+	 -fx-font: 20px Tahoma;
+  
+    -fx-stroke: blue;
+    -fx-stroke-width: 1;
+     -fx-text-fill: blue;
+    
+}  
+
+
+.check-box .box {
+
+-fx-background-color: white;
+-fx-border-color:grey;
+-fx-border-radius:3px; 
+ -fx-text-fill: blue;
+
+
+}
+
+.check-box:selected .mark {
+
+-fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+-fx-background-color: #28a3f4;
+}
+
+
